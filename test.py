@@ -23,5 +23,5 @@ for URL in URLS:
         buy_link=price.a["href"]
         buy_link="uk.pcpartpicker.com"+buy_link
 
-        print(price.find("td",class_="td__finalPrice").text)
+        print(price.find("td",class_="td__finalPrice").text #add a bracket plz
     
